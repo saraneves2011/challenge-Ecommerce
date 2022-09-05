@@ -1,0 +1,273 @@
+body{
+    font-family: 'Raleway';
+}
+a{
+  text-decoration: none;
+}
+
+.principal{
+  display: flex;
+  justify-content: center;
+}
+
+.principal--header {
+    display: flex;   
+    align-items: center;
+    height: 115px;
+    width: 1146px;
+    justify-content: space-between;
+}
+
+.principal--header--direita{
+    display: flex;   
+    align-items: center;
+    height: 115px;
+    width: 601px;
+}
+
+.divBuscar{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    background-color:#F5F5F5;
+    margin-left: 32px;
+    border-radius: 20px;
+    width:393px;
+    height: 30px;
+  }
+  
+  #txtBuscar{
+    
+    background-color:transparent;
+    padding-left:15px;
+    font-style:normal;
+    font-size:14px;
+    border: none;
+    font-weight: 400;
+    height:16px;
+    width:138px;
+  }
+
+  #txtBuscar:focus{
+    outline: none;
+  }
+
+  #imgBuscar{
+    position: absolute;
+    margin-left: 356px;
+  }
+
+  
+
+  .botao-headder{
+    color: #2A7AE4;
+    box-sizing: border-box;
+    width: 182px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+    background: #FFF;
+    order: 1;
+  }
+
+  .banner{
+    background-image: url(banner-image.png);
+    height: 352px;
+  }
+
+  .banner-img{
+    display: flex;
+    position: absolute;
+    margin-top: 150px;
+    left: 110px;
+    width: 1100px;
+    height: 170px;
+    flex-direction: column;
+    color: #FFF;
+    gap: 16px;
+    background-repeat: no-repeat;
+}
+
+.banner-img h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 53px;
+}
+
+.banner-img p{
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.botao-banner{
+        color: #FFF;
+        box-sizing: border-box;
+        width: 182px;
+        height: 51px;
+        border: 1px solid #2A7AE4;
+        background:  #2A7AE4 ;
+        order: 1;
+      
+}
+
+.produtos{
+  display: flex;
+    background: #F5F5F5;
+    width: 100%;
+  height: 1282px;
+  gap: 64px;
+    justify-content: center;
+}
+
+.star-wars{
+  margin-top: 64px;
+    display: flex;
+    width: 1136px;
+    flex-direction: column;
+    height: 306px;
+    gap: 16px;
+}
+
+.topo{
+    display: flex;
+    align-items: center;
+    gap: 875px;
+}
+
+.topo .topo-nome{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #464646;
+}
+
+
+.topo-link a{
+  color: #2A7AE4;
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.vitrine{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.vitrine-info{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.vitrine-info .p-vitrine{
+  font-weight: 500;
+  width: 176px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #464646;
+}
+
+.vitrine-info p{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #464646;
+}
+.m-contato-footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #EAF2FD;
+  gap: 115px;
+  width: 100%;
+  height: 368px;
+}
+
+
+
+.contato-footer{
+  display: flex;
+  margin: 64px 152px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 112px;
+  width: 1136px;
+  height: 240px;
+}
+
+
+.img-footer{
+  width: 176px;
+}
+
+
+.links{
+  display: flex;
+  flex-direction: column;
+  width: 176px;
+  height: 234px;
+  gap: 24px;
+}
+
+.formulario{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  height: 240px;
+  width: 560px;
+}
+
+.formulario h1{
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.formulario input{
+  width: 560px;
+  height: 56px;
+  background-color: #FFF;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+
+.formulario .mensagem{
+  height: 82px;
+}
+
+.formulario .botao{
+  color: #FFF;
+        box-sizing: border-box;
+        width: 144px;
+        height: 51px;
+        border: 1px solid #2A7AE4;
+        background:  #2A7AE4 ;
+        order: 1;
+        font-weight: 400;
+}
+
+
+.footer{
+  display: flex;
+  background: #FFFFFF;
+  justify-content: center;
+}
+
+.footer__rodape{
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__rodape p{
+  margin: 2px;
+}
